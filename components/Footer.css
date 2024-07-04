@@ -1,0 +1,29 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color:   #0a0c0c;
+    color: white;
+  }
+  @media (max-width: 768px) {
+    .footer {
+      padding: 15px;
+    }
+  
+    .footer p {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 10px;
+    }
+  
+    .footer p {
+      font-size: 14px;
+    }
+  }

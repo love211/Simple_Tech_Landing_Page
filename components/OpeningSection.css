@@ -1,0 +1,65 @@
+
+
+.opening-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.hero-image {
+  height: 50vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'urbanist';
+}
+
+.hero-text {
+  text-align: center;
+  color: #161515; 
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  margin: 20px 0;
+  font-size: 3rem; 
+  font-family: 'urbanist'; 
+}
+
+.product-description {
+  line-height: 1.6;
+  font-family: 'urbanist'; 
+}
+
+.learn-more-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem; 
+  cursor: pointer;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: 'urbanist';
+}
+
+.learn-more-btn:hover {
+  background-color: #0056b3;
+}
+
+.additional-description {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  font-family: 'urbanist'; 
+  margin: 20px auto;
+  text-align: left;
+  line-height: 1.6;
+  color: #333;
+}
